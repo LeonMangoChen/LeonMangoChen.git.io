@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>My notes</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-03-26T11:55:28.721Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Léon Chen</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>面试题</title>
+    <link href="http://yoursite.com/2019/03/26/interview/"/>
+    <id>http://yoursite.com/2019/03/26/interview/</id>
+    <published>2019-03-25T16:00:00.000Z</published>
+    <updated>2019-03-26T11:55:28.721Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.vue的自定义指令<br>2.vue的侦听器（watch）是在什么时候执行的，计算属性（computed）是在什么时候执行，两者有什么区别？<br>3.vuex的原理说一下。<br>4.vue-router的history和hash模式有什么区别？<br>5.用过vue的哪些api及框架，介绍下功能或者作用。<br>6.vue的过滤器介绍一下。  </p><p>7.介绍下闭包，以及闭包的使用场景。<br>8.前端性能优化。  </p><p>9.为什么vue和react都用了虚拟dom？<br>10.异步的实现方式？</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1.vue的自定义指令&lt;br&gt;2.vue的侦听器（watch）是在什么时候执行的，计算属性（computed）是在什么时候执行，两者有什么区别？&lt;br&gt;3.vuex的原理说一下。&lt;br&gt;4.vue-router的history和hash模式有什么区别？&lt;br&gt;5.用过vue
+      
+    
+    </summary>
+    
+    
+      <category term="面试" scheme="http://yoursite.com/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
+  
+</feed>
