@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>My notes</title>
+  <title>LeonMangoChen</title>
   
-  
+  <subtitle>人如果没有梦想，和咸鱼有什么分别</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-26T11:55:28.721Z</updated>
+  <updated>2019-03-28T02:11:38.318Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,19 +17,19 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>面试题</title>
+    <title>面试题总结</title>
     <link href="http://yoursite.com/2019/03/26/interview/"/>
     <id>http://yoursite.com/2019/03/26/interview/</id>
     <published>2019-03-25T16:00:00.000Z</published>
-    <updated>2019-03-26T11:55:28.721Z</updated>
+    <updated>2019-03-28T02:11:38.318Z</updated>
     
-    <content type="html"><![CDATA[<p>1.vue的自定义指令<br>2.vue的侦听器（watch）是在什么时候执行的，计算属性（computed）是在什么时候执行，两者有什么区别？<br>3.vuex的原理说一下。<br>4.vue-router的history和hash模式有什么区别？<br>5.用过vue的哪些api及框架，介绍下功能或者作用。<br>6.vue的过滤器介绍一下。  </p><p>7.介绍下闭包，以及闭包的使用场景。<br>8.前端性能优化。  </p><p>9.为什么vue和react都用了虚拟dom？<br>10.异步的实现方式？</p>]]></content>
+    <content type="html"><![CDATA[<p>在寒冬之下经历的一系列的面试，在不断的怀疑自己和不断的心理建设之后终于面到了还算是比较满意的 offer，所以将这段面试经历做下记录，希望对以后有所帮助。当下前端技术框架更新很快，需要不断的学习来充实自己的技术栈，有些面试题在当下可能会重点被问到，但是过段事件就可能别遗忘。所以重要的是基础，万变不离其宗，一定要将基础打牢。还有就是当下流行的 vue 和 react 虽然也在快速的迭代更新，但是最核心的技术点还是始终不变的，只要将核心掌握，就不怕变化。</p><h2 id="vue相关"><a href="#vue相关" class="headerlink" title="vue相关"></a>vue相关</h2><h3 id="vue的自定义指令。"><a href="#vue的自定义指令。" class="headerlink" title="vue的自定义指令。"></a>vue的自定义指令。</h3><p>vue 的自定义指令用 directive 来定义</p><h3 id="vue的侦听器（watch）是在什么时候执行的，计算属性（computed）是在什么时候执行，两者有什么区别？"><a href="#vue的侦听器（watch）是在什么时候执行的，计算属性（computed）是在什么时候执行，两者有什么区别？" class="headerlink" title="vue的侦听器（watch）是在什么时候执行的，计算属性（computed）是在什么时候执行，两者有什么区别？"></a>vue的侦听器（watch）是在什么时候执行的，计算属性（computed）是在什么时候执行，两者有什么区别？</h3><p>watchs 是当组件中的数据有变动时执行，是用于观察数据的变动<br>computed 是在 DOM 加载后马上执行的，结果会被缓存，除非依赖的响应式属性变化才会重新计算，主要当作属性来用。</p><h3 id="vuex的原理说一下。"><a href="#vuex的原理说一下。" class="headerlink" title="vuex的原理说一下。"></a>vuex的原理说一下。</h3><p>vuex 主要是 vue 的状态管理器。通过 vue-component 来dispatch （派发） action ，action commit mutations</p><h3 id="vue-router的history和hash模式有什么区别？"><a href="#vue-router的history和hash模式有什么区别？" class="headerlink" title="vue-router的history和hash模式有什么区别？"></a>vue-router的history和hash模式有什么区别？</h3><h3 id="用过vue的哪些api及框架，介绍下功能或者作用。"><a href="#用过vue的哪些api及框架，介绍下功能或者作用。" class="headerlink" title="用过vue的哪些api及框架，介绍下功能或者作用。"></a>用过vue的哪些api及框架，介绍下功能或者作用。</h3><h3 id="vue的过滤器介绍一下。"><a href="#vue的过滤器介绍一下。" class="headerlink" title="vue的过滤器介绍一下。"></a>vue的过滤器介绍一下。</h3><h3 id="vue三要素，以及对三要素的理解"><a href="#vue三要素，以及对三要素的理解" class="headerlink" title="vue三要素，以及对三要素的理解"></a>vue三要素，以及对三要素的理解</h3><h3 id="vue的核心"><a href="#vue的核心" class="headerlink" title="vue的核心"></a>vue的核心</h3><p>数据驱动，组件化思想</p><h2 id="react相关"><a href="#react相关" class="headerlink" title="react相关"></a>react相关</h2><h3 id="react中常用的生命周期方法有哪些？"><a href="#react中常用的生命周期方法有哪些？" class="headerlink" title="react中常用的生命周期方法有哪些？"></a>react中常用的生命周期方法有哪些？</h3><h3 id="说一些setState的过程，以及怎样实现异步"><a href="#说一些setState的过程，以及怎样实现异步" class="headerlink" title="说一些setState的过程，以及怎样实现异步"></a>说一些setState的过程，以及怎样实现异步</h3><h3 id="对组件化的理解"><a href="#对组件化的理解" class="headerlink" title="对组件化的理解"></a>对组件化的理解</h3><h3 id="JSX的本质"><a href="#JSX的本质" class="headerlink" title="JSX的本质"></a>JSX的本质</h3><h3 id="JSX和vdom的关系"><a href="#JSX和vdom的关系" class="headerlink" title="JSX和vdom的关系"></a>JSX和vdom的关系</h3><h3 id="React和Vue的对比"><a href="#React和Vue的对比" class="headerlink" title="React和Vue的对比"></a>React和Vue的对比</h3><h2 id="CSS相关"><a href="#CSS相关" class="headerlink" title="CSS相关"></a>CSS相关</h2><h3 id="如何使一个宽高未知的盒子进行居中"><a href="#如何使一个宽高未知的盒子进行居中" class="headerlink" title="如何使一个宽高未知的盒子进行居中"></a>如何使一个宽高未知的盒子进行居中</h3><h3 id="简单说下盒模型"><a href="#简单说下盒模型" class="headerlink" title="简单说下盒模型"></a>简单说下盒模型</h3><h3 id="说下CSS3一些属性"><a href="#说下CSS3一些属性" class="headerlink" title="说下CSS3一些属性"></a>说下CSS3一些属性</h3><h2 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h2><h3 id="前端性能优化。"><a href="#前端性能优化。" class="headerlink" title="前端性能优化。"></a>前端性能优化。</h3><h3 id="异步的实现方式？"><a href="#异步的实现方式？" class="headerlink" title="异步的实现方式？"></a>异步的实现方式？</h3><h3 id="简单说下从浏览器地址栏输入地址到看到界面都经过了哪些过程。"><a href="#简单说下从浏览器地址栏输入地址到看到界面都经过了哪些过程。" class="headerlink" title="简单说下从浏览器地址栏输入地址到看到界面都经过了哪些过程。"></a>简单说下从浏览器地址栏输入地址到看到界面都经过了哪些过程。</h3><h3 id="http与https的区别，https用到了什么加密算法。"><a href="#http与https的区别，https用到了什么加密算法。" class="headerlink" title="http与https的区别，https用到了什么加密算法。"></a>http与https的区别，https用到了什么加密算法。</h3><h3 id="介绍下闭包，以及闭包的使用场景。"><a href="#介绍下闭包，以及闭包的使用场景。" class="headerlink" title="介绍下闭包，以及闭包的使用场景。"></a>介绍下闭包，以及闭包的使用场景。</h3><h3 id="Promise运行结果（微任务和宏任务）"><a href="#Promise运行结果（微任务和宏任务）" class="headerlink" title="Promise运行结果（微任务和宏任务）"></a>Promise运行结果（微任务和宏任务）</h3><h3 id="说下对js事件机制的理解"><a href="#说下对js事件机制的理解" class="headerlink" title="说下对js事件机制的理解"></a>说下对js事件机制的理解</h3>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;1.vue的自定义指令&lt;br&gt;2.vue的侦听器（watch）是在什么时候执行的，计算属性（computed）是在什么时候执行，两者有什么区别？&lt;br&gt;3.vuex的原理说一下。&lt;br&gt;4.vue-router的history和hash模式有什么区别？&lt;br&gt;5.用过vue
+        &lt;p&gt;在寒冬之下经历的一系列的面试，在不断的怀疑自己和不断的心理建设之后终于面到了还算是比较满意的 offer，所以将这段面试经历做下记录，希望对以后有所帮助。当下前端技术框架更新很快，需要不断的学习来充实自己的技术栈，有些面试题在当下可能会重点被问到，但是过段事件就可能别遗忘。
       
     
     </summary>
